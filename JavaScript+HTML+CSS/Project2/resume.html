@@ -1,0 +1,605 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/ DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title> Пам'ятки різних країн </title>
+<link rel="stylesheet" type="text/css" href = "./style.css"/>
+<style>
+table
+{
+	overflow: hidden;
+}
+
+th, td
+{
+	padding: 10px 10px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+
+td
+{
+    cursor: pointer;
+    position: relative;
+}
+
+tbody tr:hover
+{ 
+	background: aquamarine;
+}
+
+td:hover::before
+{
+	content: '';
+	background: #ffa;
+	position: absolute;
+	height: 2000px;
+	width: 100%;
+	left: 0px;
+	top: -1000px;
+	z-index: -1;
+}
+
+select
+{
+	color: DarkOliveGreen;
+}
+
+</style>
+</head>
+
+<body>
+
+<p> <left> <a href = "./index.html"> Повернутися на головну </a> </left> </p>
+
+<center>
+<table class="data_personal">
+<thead>
+	<tr>
+		<th> <img src="./src/photo.jpg" alt="Фото розробника" height = 180 width = 120 class="center"/> </td>
+		<th>
+			<p> Карнаух Вероніка Дмитрівна </p>
+			<p> 12.04.2002 </p>
+			<p> Запоріжжя, вулиця О. Анашкіна, 192 </p>
+			<p> +380682770768 </p>
+			<p> smartnica@gmail.com </p>
+		</th>
+	</tr>
+</thead>
+</table>
+
+<table class="data_all">
+<p> <caption> Освіта: </caption> </p>
+<thead>
+	<tr class="th3">
+		<th> з (мм/рррр) </th>
+		<th> по (мм/рррр) </th>
+		<th> назва навчального закладу </th>
+		<th> спеціальність </th>
+		<th> підсумкова атестація </th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td> 09.2019 </td>
+		<td> 09.2021 </td>
+		<td> НУ "ЗП" </td>
+		<td> 121 </td>
+		<td> відсутня </td>
+	</tr>
+</tbody>
+</table>
+
+<table class="data_all">
+<p> <caption> Досвід роботи: </caption> </p>
+<thead>
+	<tr class="th3">
+		<th> з (мм/рррр) </th>
+		<th> по (мм/рррр) </th>
+		<th> місце роботи </th>
+		<th> посада </th>
+		<th> обов'язки </th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td> 09.2019 </td>
+		<td> 09.2021 </td>
+		<td> НУ "ЗП" </td>
+		<td> студент </td>
+		<td> вчитися </td>
+	</tr>
+</tbody>
+</table>
+
+<table class="data_all">
+<p> <caption> Проєкти: </caption> </p>
+<thead>
+	<tr class="th3">
+		<th> Назва </th>
+		<th> Доля участі </th>
+		<th> Опис </th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td> Лабораторна робота №3 </td>
+		<td> Написання коду та створення дизайну веб-сторінок </td>
+		<td> Сайт про пам'ятки різних країн </td>
+	</tr>
+</tbody>
+</table>
+
+<p>
+<table class="data_all">
+<thead>
+	<tr class="th3">
+		<th rowspan=2> Технічні навички </th>
+		<th colspan=5> Рівень знань </th>
+	</tr>
+	<tr class="th3">
+		<td> не знаю </td>
+		<td> базовий </td>
+		<td> середній </td>
+		<td> високий </td>
+		<td> експерт </td>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<th colspan=6 class="th2"> Операційні системи </th>
+	</tr>
+	<tr>
+		<td> Windows </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td>+</td>
+		<td> </td>
+	</tr>
+	<tr>
+		<td> Linux </td>
+		<td> </td>
+		<td> </td>
+		<td>+</td>
+		<td> </td>
+		<td> </td>
+	</tr>
+	<tr>
+		<th colspan=6 class="th2"> Бази даних </th>
+	</tr>
+	<tr>
+		<td> Access </td>
+		<td> </td>
+		<td>  </td>
+		<td> </td>
+		<td>+</td>
+		<td> </td>
+	</tr>
+	<tr>
+		<td> SQLite </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td>+</td>
+		<td> </td>
+	</tr>
+	<tr>
+		<th colspan=6 class="th2"> Програми для роботи з графікою </th>
+	</tr>
+	<tr>
+		<td> Adobe Photoshop </td>
+		<td>+</td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+	</tr>
+	<tr>
+		<td> Adobe Illustrator </td>
+		<td>+</td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+	</tr>
+	<tr>
+		<td> Macromedia Flash </td>
+		<td>+</td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+	</tr>
+	<tr>
+		<th colspan=6 class="th2"> Офісні пакети </th>
+	</tr>
+	<tr>
+		<td> LibreOffice </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td>+</td>
+		<td> </td>
+	</tr>
+	<tr>
+		<td> Microsoft Office </td>
+		<td> </td>
+		<td> </td>
+		<td>+</td>
+		<td> </td>
+		<td> </td>
+	</tr>
+	<tr>
+		<th colspan=6 class="th2"> Мови програмування і розмітки </th>
+	</tr>
+	<tr>
+		<td> HTML </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td>+</td>
+		<td> </td>
+	</tr>
+	<tr>
+		<td> CSS </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td>+</td>
+		<td> </td>
+	</tr>
+	<tr>
+		<td> DHTML </td>
+		<td>+</td>
+		<td> </td>
+		<td></td>
+		<td> </td>
+		<td> </td>
+	</tr>
+	<tr>
+		<td> XML </td>
+		<td> </td>
+		<td> </td>
+		<td>+</td>
+		<td> </td>
+		<td> </td>
+	</tr>
+	<tr>
+		<td> JavaScript </td>
+		<td> </td>
+		<td> </td>
+		<td>+</td>
+		<td> </td>
+		<td> </td>
+	</tr>
+	<tr>
+		<td> PHP </td>
+		<td>+</td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+	</tr>
+	<tr>
+		<td> Perl </td>
+		<td>+</td>
+		<td> </td>
+		<td></td>
+		<td> </td>
+		<td> </td>
+	</tr>
+	<tr>
+		<td> C/C++ </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td>+</td>
+		<td> </td>
+	</tr>
+	<tr>
+		<td> ActionScript </td>
+		<td>+</td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+	</tr>
+</tbody>
+</table>
+</p>
+
+<p>
+<table class="data_all">
+<thead>
+	<tr class="th3">
+		<th colspan=2> Додаткова інформація </th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td> Сертифікати </td>
+		<td> Online Spring School on Data Science 2021 </td>
+	</tr>
+	<tr>
+		<td> Особисті якості </td>
+		<td> Креативність, завзятість, наполегливість, відповідальність </td>
+	</tr>
+	<tr>
+		<td> Графік роботи, якому віддана перевага </td>
+		<td> Понеділок - п'ятниця, 10:00 - 14: 00 </td>
+	</tr>
+</tbody>
+</table>
+</p>
+
+<form action="thanking.html" method="post" id="lab6" onsubmit="return send_window()">
+
+<script>
+
+function check_user_name()
+{
+	var user = document.forms['lab6'].user_name.value
+	if( user.length == 0 ) 
+	{
+		alert("Будь ласка, введіть ваше ім'я!")
+		return false
+	}
+	return true
+}
+
+function check_email()
+{
+	var strmail = document.forms['lab6'].email.value
+	if( ( strmail.indexOf("@") < 0 ) || ( strmail.indexOf(".") < 0 ) || ( strmail.lastIndexOf(".") < strmail.indexOf("@") ) ) 
+	{
+		alert("Будь ласка, введіть правильний e-mail!")
+		return false
+	}
+	return true
+}
+
+function get_want_answer()
+{
+	return document.forms['lab6'].want_answer.checked
+}
+
+function check_browser()
+{
+	var browser = document.getElementById("browsers_input").value
+	if( browser.length == 0 ) 
+	{
+		alert("Будь ласка, введіть браузер!")
+		return false
+	}
+	return true
+}
+
+function get_score()
+{
+	return document.querySelector('input[name="score"]:checked').value//document.getElementsByName("score").checked
+}
+
+function get_liked()
+{
+	var result = [];
+	var options = document.getElementById("liked") && document.getElementById("liked").options;
+	var opt;
+
+	for( var i = 0, iLen = options.length; i < iLen; i++ )
+	{
+		opt = options[i];
+
+		if( opt.selected )
+		{
+			result.push( opt.value );
+		}
+	}
+	
+	return result
+}
+
+function check_liked()
+{
+	if( get_liked().length == 0 ) 
+	{
+		alert("Будь ласка, введіть улюблене!")
+		return false
+	}
+	return true
+}
+
+function check_review()
+{
+	var text = document.getElementById("review").value
+	if( text.length == 0 ) 
+	{
+		return false
+	}
+	else
+	{
+		return true
+	}
+}
+
+function send_window()
+{
+	if( check_user_name() != true )
+		return false
+
+	if( check_email() != true )
+		return false
+		
+	if( check_browser() != true )
+		return false
+		
+	if( check_liked() != true )
+		return false
+		
+	if( check_review() == true )
+	{
+		var win = window.open('', 'new', 'height=220, width=450, continued from previous line toolbar=no, directories=no, status=no, menubar=no, continued from previous line scrollbars=no, resizable=no');
+	
+		win.document.write("Шановний/a, " + document.forms['lab6'].user_name.value + "!")
+		win.document.write("<br \/>")
+		
+		win.document.write("Можлива відповідь буде надіслана за адресою " + document.forms['lab6'].email.value + ".")
+		win.document.write("<br \/>")
+		
+		if( get_want_answer() == true )
+			win.document.write("Вам обов'язково буде надіслано відповідь!")
+		else
+			win.document.write("Вам не буде надіслано відповідь!")
+		win.document.write("<br \/>")
+		
+		win.document.write("Дякуємо за визначення браузера " + document.getElementById('browsers_input').value + ".")
+		win.document.write("<br \/>")
+		
+		win.document.write("Дякуємо за виставлену оцінку " + get_score() + "!")
+		win.document.write("<br \/>")
+			
+		win.document.write("Дякуємо за вибране улюблене:")
+		win.document.write("<br \/>")
+		result = get_liked()
+		for( var i = 0, iLen = result.length; i < iLen; i++ )
+		{
+			win.document.write(result[i])
+			win.document.write("<br \/>")
+		}
+		win.document.write("<br \/>")
+		
+		win.document.write("Ваше рев'ю - " + document.getElementById("review").value + " - було надіслане!")
+	}
+	else
+	{
+		if( confirm("Ви впевнені, що не хочете надіслати розгорнутий коментар?") == true )
+		{
+			var win = window.open('', 'new', 'height=220, width=450, continued from previous line toolbar=no, directories=no, status=no, menubar=no, continued from previous line scrollbars=no, resizable=no');
+	
+			win.document.write("Шановний/a, " + document.forms['lab6'].user_name.value + "!")
+			win.document.write("<br \/>")
+			
+			win.document.write("Можлива відповідь буде надіслана за адресою " + document.forms['lab6'].email.value + ".")
+			win.document.write("<br \/>")
+			
+			if( get_want_answer() == true )
+				win.document.write("Вам обов'язково буде надіслано відповідь!")
+			else
+				win.document.write("Вам не буде надіслано відповідь!")
+			win.document.write("<br \/>")
+			
+			win.document.write("Дякуємо за визначення браузера " + document.getElementById('browsers_input').value + ".")
+			win.document.write("<br \/>")
+			
+			win.document.write("Дякуємо за виставлену оцінку " + get_score() + "!")
+			win.document.write("<br \/>")
+				
+			win.document.write("Дякуємо за вибране улюблене:")
+			win.document.write("<br \/>")
+			result = get_liked()
+			for( var i = 0, iLen = result.length; i < iLen; i++ )
+			{
+				win.document.write(result[i])
+				win.document.write("<br \/>")
+			}
+			win.document.write("<br \/>")
+			
+			win.document.write("Ви не надіслали розгорнутий коментар.")
+		}
+		else
+		{
+			return false
+		}
+	}
+	
+	return true
+}
+
+</script>
+
+<table class="data_all">
+<p> <caption> Напишіть відгук! </caption> </p>
+<thead>
+	<tr class="th3">
+		<th colspan=2> Надайте інформацію щодо покращення сайту! </th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td> Ваше ім'я: <br> <input type=text name="user_name" size=30 maxlength=30/> </td>
+	</tr>
+	<tr>
+		<td> Ваш e-mail: <br> <input type=email name="email"/> </td>
+	</tr>
+	<tr>
+		<td> Чи хотіли би ви отримати відповідь на ваш відгук? <input type=checkbox name="want_answer" checked=true/> </td>
+	</tr>
+	<tr>
+		<td> Який браузер ви використуєте? <br>
+			<input list="browsers" id="browsers_input"/>
+			<datalist id="browsers">
+				<option value="Google Chrome">
+				<option value="Safari">
+				<option value="Firefox">
+				<option value="Opera">
+				<option value="Internet Explorer">
+			</datalist>
+		</td>
+	</tr>
+	<tr>
+		<td> Оцінка: <br>
+			<input type=radio name="score" value=1> 1
+			<input type=radio name="score" value=2> 2
+			<input type=radio name="score" value=3> 3
+			<input type=radio name="score" value=4> 4
+			<input type=radio name="score" value=5 checked> 5
+		</td>
+	</tr>
+	<tr>
+		<td> Оберіть те, що найбільше вам сподобалося: <br>
+			<select id="liked" size=8 multiple>
+				<optgroup label="Країни">
+					<option value="Україна"> Україна </option>
+					<option value="Англія"> Англія </option>
+					<option value="Франція"> Франція </option>
+					<option value="Німеччина"> Німеччина </option>
+				</optgroup>
+				<optgroup label="Міста">
+					<option value="Запоріжжя"> Запоріжжя </option>
+					<option value="Львів"> Львів </option>
+					<option value="Київ"> Київ </option>
+					<option value="Харків"> Харків </option>
+					<option value="Париж"> Париж </option>
+					<option value="Страсбург"> Страсбург </option>
+					<option value="Ніцца"> Ніцца </option>
+					<option value="Орлеан"> Орлеан </option>
+					<option value="Лондон"> Лондон </option>
+					<option value="Едінбург"> Едінбург </option>
+					<option value="Манчестер"> Манчестер </option>
+					<option value="Ліверпуль"> Ліверпуль </option>
+					<option value="Берлін"> Берлін </option>
+					<option value="Мюнхен"> Мюнхен </option>
+					<option value="Дрезден"> Дрезден </option>
+					<option value="Лейпциг"> Лейпциг </option>
+				</optgroup>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td> Напишіть розгорнутий коментар: <br> <textarea rows=20 cols=80 id="review"></textarea> </td>
+	</tr>
+	<tr>
+		<td> <input type=submit name="submit_button" value="Надіслати" LANGUAGE="Javascript"/> </td>
+	</tr>
+</tbody>
+</table>
+</form>
+
+<p> <img src="./src/0.jpg" alt="Символ сайту" class="center"/> </p>
+
+</center>
+</body>
+
+</html>

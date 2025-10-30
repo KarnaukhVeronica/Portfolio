@@ -1,0 +1,124 @@
+body
+{
+	font: caption;
+	margin-top: 50 px;
+	margin-right: 80px;
+	margin-left: 80px;
+	padding: 20px;
+	background-color: lavenderBlush;
+}
+
+img.center
+{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 35px;
+}
+
+caption
+{
+	caption-side: top;
+	text-align: center;
+}
+
+p
+{
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+table.main
+{
+	margin-left: auto;
+	margin-right: auto;
+	border: 0px;
+	padding: 10px;
+	border-spacing: 0px;
+	width: 80%;
+	text-align: center;
+}
+
+table.data_personal
+{
+	border-collapse: collapse;
+	border-spacing: 10px;
+	border: 1px solid black;
+	border-right: 1 px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	width: 40%;
+	text-align: left;
+	outline: 10px groove gold;
+}
+
+table.data_all
+{
+	border-collapse: collapse;
+	border-spacing: 1px;
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	width: 80%;
+	text-align: center;
+}
+
+th
+{
+	border-bottom: 0px;
+	font-style: oblique;
+	font-weight: 200;
+}
+
+.th1
+{
+	background-color: moccasin;
+}
+
+.th2
+{
+	background-color: lightblue;
+}
+
+.th3
+{
+	background-color: yellow;
+}
+
+.th_edge
+{
+	border-bottom: 0px;
+	border-top: 0px;
+}
+
+td
+{
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+
+li
+{
+	padding: 10px;
+	list-style-type: square;
+	color: mediumVioletRed;
+	border: 1px dashed blue;
+	font-variant: small-caps;
+	font-family: Monotype Corsiva;
+}
+
+a:hover
+{
+	background-color: salmon;
+	color: white;
+}
+
+.container
+{
+	padding: 1%;
+	column-count: 3;
+	column-gap: 3%;
+	max-width: calc(80/3 - 2*(column-gap + padding)%;
+	margin: auto;
+}
